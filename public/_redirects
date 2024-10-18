@@ -1125,6 +1125,9 @@
 /support/account-management-billing/account-privacy-and-security/ /support/account-management-billing/ 301
 /support/troubleshooting/general-troubleshooting/troubleshooting-surges-or-spikes-in-web-traffic/ /fundamentals/basic-tasks/preparing-for-surges-or-spikes-in-web-traffic/ 301
 /support/troubleshooting/general-troubleshooting/preparing-for-surges-or-spikes-in-web-traffic/ /fundamentals/basic-tasks/preparing-for-surges-or-spikes-in-web-traffic/ 301
+/support/third-party-software/others/configuring-an-amazon-web-services-static-site-to-use-cloudflare/ /rules/cloud-connector/providers/ 301
+/support/third-party-software/others/enabling-cloudflare-ssl-on-azure-storage-static-web-hosting-applications/ /rules/cloud-connector/providers/ 301
+
 
 # r2
 /r2/platform/s3-compatibility/api/ /r2/api/s3/api/ 301
@@ -1717,6 +1720,7 @@
 /cloudflare-one/tutorials/zsh-env-var/ /cloudflare-one/tutorials/cli/ 301
 
 ### DYNAMIC REDIRECTS ###
+/*/sitemap.xml /sitemap-index.xml 301
 /access/configuring-identity-providers/* /cloudflare-one/identity/idp-integration/:splat 301
 /api-security/* /api-shield/:splat 301
 /api-shield/products/* /api-shield/security/:splat 301
